@@ -13,6 +13,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: "/valentines-day",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
